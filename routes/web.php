@@ -18,3 +18,15 @@ Route::get('/bienvenido', function () {
 
     return view('welcome');
 });
+
+Route::get('/segunda', function () {
+
+
+    return view('segunda');
+});
+
+Route::get('/tercera', function () {
+
+
+    return view('tercera');
+});
